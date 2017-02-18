@@ -1,10 +1,9 @@
 <resources>
-    <string name="img_description">drawable</string>
-    <string name="left_btn">Accept</string>
-    <string name="center_bt">Cancel</string>
-    <string name="right_btn">Apply</string>
     <string name="name_editText">Name</string>
     <string name="surname_editText">Surname</string>
     <string name="nationality_editText">Nationality...</string>
     <string name="checkbox">UE citizen</string>
+    <string name="left_btn">Accept</string>
+    <string name="center_bt">Cancel</string>
+    <string name="right_btn">Apply</string>
 </resources>

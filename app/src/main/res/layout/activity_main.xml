@@ -202,38 +202,38 @@
                 android:src="@mipmap/ic_launcher"
                 android:layout_marginRight="20dp"/>
         </FrameLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:layout_gravity="bottom"
-        android:gravity="center">
-
-
-        <Button
-            android:text="Accept"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:id="@+id/left_btn"
-             android:textColor="#34b217" />
+            android:background="@android:color/white"
+            android:layout_gravity="bottom"
+            android:gravity="center">
 
-        <Button
-            android:text="Cancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:id="@+id/center_bt"
-             android:textColor="#FF0000" />
 
-        <Button
-            android:text="Apply"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:id="@+id/right_btn"/>
-    </LinearLayout>
+            <Button
+                android:text="Accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/left_btn"
+                 android:textColor="#34b217" />
+
+            <Button
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/center_bt"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:text="Apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/right_btn"/>
+        </LinearLayout>
 
 
 </LinearLayout>
