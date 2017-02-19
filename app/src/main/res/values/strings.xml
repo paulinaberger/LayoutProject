@@ -6,4 +6,5 @@
     <string name="left_btn">Accept</string>
     <string name="center_bt">Cancel</string>
     <string name="right_btn">Apply</string>
+    <string name="Passport"> <u>Passport</u></string>
 </resources>
