@@ -83,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textColor="@android:color/white"
-                    android:textSize="25dp"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:textAlignment="center"
                     android:text="@string/Passport"
                     android:id="@+id/Passport"
@@ -100,7 +100,7 @@
                     android:layout_weight="1"
                     android:text="Name:"
                     android:layout_gravity="left"
-                    android:textSize="18sp"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:gravity="left"
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content" />
@@ -110,11 +110,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:inputType="text"
-                    android:ems="10"
                     android:textColor="@android:color/darker_gray"
                     android:hint="@string/name_editText"
                     android:textSize="12sp"
-                    android:textColorLink="@android:color/holo_blue_dark" />
+                    android:id="@+id/editText" />
 
             </TableRow>
             <TableRow
@@ -128,7 +127,7 @@
                     android:layout_weight="1"
                     android:text="Surname:"
                     android:layout_gravity="left"
-                    android:textSize="18sp"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:gravity="left"
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content" />
@@ -139,10 +138,7 @@
                     android:inputType="text"
                     android:layout_weight="1"
                     android:hint="Surname"
-                    android:ems="10"
-                    android:textColor="@android:color/darker_gray"
-                    android:textSize="12sp"
-                    android:textColorLink="@android:color/holo_blue_dark" />
+                    android:textSize="12sp"/>
             </TableRow>
 
             <TableRow
@@ -160,7 +156,7 @@
                     android:id="@+id/textView"
                     android:textColor="@android:color/darker_gray"
                     android:background="@android:color/background_light"
-                    android:textSize="18sp"
+                    android:textAppearance="?android:textAppearanceMedium"
                     android:ems="8"
                     tools:ignore="RtlSymmetry" />
 
